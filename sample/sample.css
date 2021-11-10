@@ -1,0 +1,291 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: popins;
+}
+.nav
+{
+    border-bottom: white solid;
+    position: sticky;
+}
+
+.nav>ul
+{
+    background: #666666;
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.nav>ul>li>a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav>ul>li>a:hover
+{
+    background-color: #212B54;;
+    padding: 10px;
+    color: white;
+}
+.zap
+{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    color: white;
+   
+}
+
+.zap>.zapt
+{
+    line-height: 129px;
+   font-weight: bolder;
+   font-size: 72px;
+}
+.zap>li>img
+{
+    height: 50px;
+    width: 50px;
+}
+.title
+{
+    background: #666666;
+    text-align: center;
+    padding: 50px;
+    /* color: #335D60; */
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.burger
+{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+    display: none;
+}
+.snacks
+{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+    display: none;
+}
+.subnav
+{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    justify-content: space-evenly;
+    position: relative;
+    left: 330px;
+    background: #333;
+}
+.subnav>.heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background-color: #56CCF2;
+    cursor: pointer;
+}
+
+.subnav>.heading:hover
+{
+    color: #56CCF2;
+    background: #666666;
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+    color: black;
+    flex-wrap: wrap;
+}
+.tali
+{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+    /* display: none; */
+
+}
+.box
+{
+    text-align: center;
+    margin: 50px;
+}
+.box>.cart-name
+{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.container>.box
+{
+    margin: 50px;
+
+}
+.box>div>img
+{
+    height: 300px;
+    width: 300px;
+}
+.box>.cart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+.box>.cart>button
+{
+    background: #56CCF2;
+    color: white;
+    width: 100px;
+    border: none;
+    height: 30px;
+}
+.cartsection
+{
+    margin: 50px;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+    
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row {
+    display: flex;
+}
+.cart-ITEM {
+    width: 45%;
+}
+
+.cart-PRICE {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}

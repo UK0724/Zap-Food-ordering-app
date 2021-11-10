@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@700&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;    
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.container
+{
+    background: #335D60;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content
+{
+    background: #DAEAEB;
+    height: 80vh;
+    width: 80vw;
+    position: relative;
+}
+
+.main-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-part
+{
+    display: flex;
+    padding-left: 30px;
+}
+.logo-part>img
+{
+    margin: 10px;
+}
+.logo-part>h1
+{
+    line-height: 100px;
+    font-family: 'poppins',sans-serif;
+    font-size: 50px;
+    color: #257378 ;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+    padding: 30px;
+    font-weight: bolder;
+    
+}
+.nav>li>a:hover
+{
+    background: white;
+    padding:10px
+}
+.fas
+{
+    color: rgb(73, 25, 184);
+}
+
+.nav li>a
+{
+    text-decoration: None;
+    font-size: 30px;
+}
+
+.nav li
+{
+    list-style-type: none;
+    color: #162D5A;
+}
+
+.nav>.login>a,.nav>.register>a
+{
+    background: #196FE0;
+    height: 50px;
+    padding:10px;
+    border-radius: 50px;
+    color: white;
+    font: bolder;
+}
+.nav>.login>a:hover,.nav>.register>a:hover
+{
+    background-color: white;
+    color: #196FE0;
+    cursor: pointer;
+}
+.halfpageimage{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    bottom: 0px;
+    background: url('/asserts/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.para
+{
+    font-family: 'poppins'; 
+    position: relative;
+    top: -120px;
+    color: #257378;
+    font-size: 30px;
+    padding-left: 40px;
+    font-weight: bolder;
+}
