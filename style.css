@@ -101,7 +101,7 @@ body
     height: 50%;
     width: 100%;
     bottom: 0px;
-    background: url('/asserts/bg.jpg');
+    background: url('asserts/bg.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
